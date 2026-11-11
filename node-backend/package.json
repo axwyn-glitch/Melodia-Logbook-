@@ -1,0 +1,15 @@
+{
+  "name": "melodia-tms",
+  "version": "1.0.0",
+  "description": "Melodia Coding Academy Training Management System",
+  "main": "server.js",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0"
+  }
+}

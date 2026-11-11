@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign up · Melodia Coding Academy</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div class="center"><div class="card">
+<div class="logo">M</div><h1>Create your student account</h1>
+<form id="f">
+<label>Full name<input id="name" required autocomplete="name"></label>
+<label>Email<input type="text" id="email" required autocomplete="email"></label>
+<label>Phone (optional)<input id="phone" autocomplete="tel"></label>
+<label>Password (8+ characters)<input type="password" id="pw" required minlength="8" autocomplete="new-password"></label>
+<label>Confirm password<input type="password" id="pw2" required minlength="8" autocomplete="new-password"></label>
+<div class="err" id="err" role="alert"></div><button class="b" style="width:100%">Create account</button></form>
+<p class="hint">Already have an account? <a href="login.html">Log in</a></p>
+</div></div>
+<script src="js/local-api.js"></script><script src="js/common.js"></script><script src="js/signup.js"></script></body></html>
